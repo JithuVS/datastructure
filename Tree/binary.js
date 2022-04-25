@@ -58,7 +58,7 @@ class Tree {
 
   bfs() {
     let queue = [],
-      data = [];
+    data = [];
     let node = this.root;
     queue.push(node);
     while (queue.length) {
